@@ -1,0 +1,360 @@
+ body{
+  margin: 0px;
+  padding: 0px;
+ }
+
+ #nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+  background-color: rgb(248, 248, 248);
+  height: 80px;
+  position: relative;
+    z-index: 1;
+    width: 100%;
+ }
+
+ #nav_about{
+  display: flex;
+  flex-direction: row;
+
+ }
+ #nav_about>a{
+padding: 10px;
+ font-family: Courier, monospace;
+ font-size: 1.0rem;
+ font-weight: 300;
+ text-decoration-line: none;
+ margin-top: 22px;
+ color: black;
+ margin-right: 5px;
+ 
+ }
+
+ #image{
+  border-radius: 50%;
+  margin-left: 20px;
+ }
+
+
+
+
+#part_1{
+  position: relative;
+}
+
+
+ #part_1_0{
+background-color:  rgb(247, 211, 167);
+ height: 465px;
+ width: 28%;
+ position: absolute;
+ top: 19%;
+ left: 19%;
+ box-shadow: 0 2px 26px 0 rgba(0, 0, 0, .2);
+ font-family: Andale Mono, monospace;
+  font-size: x-large;
+  text-align: center;
+ }
+
+ #part_1_1{
+  height: 735px;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  
+ }
+
+
+ #part_1_1_1{
+  background-color: bisque;
+  height: 100%;
+  width: 40%;
+ }
+
+ #part_1_1_2{
+  background-color: rgb(248, 248, 248);
+  height: 100%;
+  width: 60%;
+  
+ }
+
+
+
+ #user_image{
+ width: 40%;
+  /* height: 155px; */
+  border-radius: 72px ;
+  border: 1px solid whitesmoke;
+  margin-left: 20px;
+  margin-top: 35px;
+   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, .2);
+ }
+
+  #part_1_0>div>p{
+   height: 4px;
+    width: 30%;
+    background-color: cornflowerblue;
+    margin-left:36%;
+  }
+
+
+#part_1_0_2{
+  background-color: whitesmoke;
+  width: 100%;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+   
+}
+#text{
+  margin-left: 80px;
+    margin-top: 146px;
+    padding: 82px;
+    font-family: Andale Mono,
+      monospace;
+}
+
+
+#button{
+  margin-left: 160px;
+}
+
+#Resume_button{
+border: 0px;
+  box-shadow: 5px 2px 14px -2px black;
+   
+    width: 121px;
+    height: 65px;
+    border-radius: 24px;
+  background-color: bisque;
+  font-size: large;
+  font-family: Andale Mono, monospace;
+  font-weight: 500;
+  
+}
+
+#Resume_button:hover{
+  border: 0px;
+    box-shadow: 0px 0px 15px -1px black;
+    width: 121px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #fbd09c;
+    font-size: larger;
+    font-family: Andale Mono, monospace;
+    text-shadow: 5px 5px 13px black;
+    border-bottom: 4px solid black;
+    border-right: 2px solid;
+}
+
+#Resume_button:active{
+ transform: scale(.99);
+}
+
+#Project_button{
+  border: 0px;
+    box-shadow: 5px 1px 14px -2px black;
+  
+    width: 121px;
+    height: 65px;
+    border-radius: 24px;
+    background-color: bisque;
+    font-size: large;
+    font-family: Andale Mono, monospace;
+    font-weight: 500;
+}
+
+#Project_button:hover {
+    border: 0px;
+      box-shadow: 0px 0px 15px -1px black;
+      width: 121px;
+      height: 65px;
+      border-radius: 20px;
+      background-color: #fbd09c;
+      font-size: larger;
+      font-family: Andale Mono, monospace;
+      text-shadow: 5px 5px 13px black;
+      border-bottom: 4px solid black;
+      border-right: 2px solid;
+}
+
+#Project_button:active {
+  transform: scale(.99);
+}
+ 
+
+#Professional{
+  height: 810px;
+  background-image: url(./image/cliffs-6999727_1920.jpg);
+  background-attachment: fixed;
+}
+
+
+.line{
+background-color: whitesmoke;
+border: 2px solid rgb(170, 170, 170);
+  height: 26px;
+    width: 0%;
+  margin-top: -4%;
+    margin-bottom: 0px;
+    margin-left: 24%;
+ 
+    transition: 5s;
+}
+
+.score_word{
+font-family: arial;
+  font-size: x-large;
+  margin-left: 15%;
+}
+
+    #button_nav {
+     
+      display: none;
+    }
+
+
+ #road{
+  font-family: Andale Mono,
+    monospace; 
+    text-align: center;
+  
+    height: 1250px;
+    display: flex;
+      align-items: center;
+      flex-direction: column;
+   background-color: #f3d6b3;
+ }
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.37);
+  background-color: #fff3e8;
+}
+
+#last_2{
+ background-image: url(./image/cliffs-6999727_1920.jpg);
+ background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+
+#resume{
+  width: 70%;
+  height: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, .2);
+  position: relative;
+  top: 20%;
+}
+
+#resume_1{
+  display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6%;
+}
+
+#resume_2{
+  display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.fa-2x{
+  padding: 10px;
+}
+
+
+#form{
+ width: 50%;
+ height: 100%;
+ 
+ padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#contact{
+  width: 50%;
+  height: 100%;
+   
+  padding: 5px;
+  
+}
+
+.contact_text{
+  font-weight: 100;
+  text-align: justify;
+}
+.input_a{
+  width: 48.5%;
+    height: 25px;
+    padding: 0%;
+    margin: 1%;
+    border-radius: 5px;
+      text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#imm{
+  height: 191px;
+    margin-bottom: 54px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    #nav_about>a {
+      font-size: .96rem;
+     }
+    
+         #button{
+          margin-top: -55px;
+         }
+         #imm{
+          height: 127px;
+            margin-bottom: 86px;
+         }
+         #resume{
+          height: 43%;
+         }
+         .line{
+          margin-left: 25%;
+          height: 24px;
+          margin-top: -6%;
+         }
+}
+
+ @media only screen and (max-width:640px) {
+      #nav_about>a {
+          display: none;
+        }
+      #button_nav{
+       display: inline;
+       
+      }
+}
+/*
+@media only screen and (max-width:412px) {
+  
+} */
